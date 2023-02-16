@@ -1,0 +1,476 @@
+
+body {
+    font-family:'jaf-domus', sans-serif;
+    letter-spacing:.07em;
+    padding-top: 70px;
+    font-size: 1.3em;
+    word-spacing: 1px;
+    background-color: #FF3D57;
+}
+
+body.modal-open {
+    overflow: visible;
+
+}
+
+p, li {
+  font-size: 1.2em;
+}
+
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing:.17em;
+    font-weight: 500;
+    padding-bottom: 55px;
+    padding-top: -25px;
+}
+
+a {
+text-decoration: none;
+color:#ffffff; 
+}
+a:visited{
+text-decoration: none;
+color:#ffffff;
+}
+a:hover{
+text-decoration: none;
+color:#ffffff;    
+}
+a:active{
+text-decoration: none;
+color:#ffffff; 
+}
+
+
+.dear-how-to {
+    background-image:url('../img/DHt-hdpi-red.png');
+    background-size:cover;
+    background-color: #FF3D57;
+    background-position: center top;
+
+  
+  }
+
+.fill{width:100%;height:350px;background-position:center;background-size:cover;
+}
+
+    /* Large desktop */
+    @media (min-width: 1200px) {
+    .dear-how-to {
+    background-image:url('../img/DHt-hdpi-red.png');
+    background-size:cover;
+    background-color: #FF3D57;
+    margin-left: 330px;
+    margin-right: 330px;
+    height: 400px;
+  }
+  
+  }
+     
+    /* Portrait tablet to landscape and desktop and large desktop */
+    @media (min-width: 768px) and (max-width: 1279px) { 
+    .dear-how-to {
+    background-image:url('../img/DHt-mdpi-red.png');
+    background-size:cover;
+    background-color: #FF3D57;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    height:350px;}
+     }
+     
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 767px) { 
+    .dear-how-to {
+    background-image:url('../img/DHt-xxhdpi-red.png');
+    background-size:cover;
+    background-color: #FF3D57;
+
+    height: 300px;
+ }
+    }
+     
+    /* Landscape phones and down */
+    @media (max-width: 480px) { 
+      .dear-how-to {
+    background-image:url('../img/DHt-xxxhdpi-red.png');
+    background-size:cover;
+    background-color: #FF3D57;
+    height:200px; }    
+     }
+	
+
+.section-intro {
+    text-align: center;
+    letter-spacing: .1em;
+    font-family: 'grandma',sans-serif;
+    line-height: 1.5;
+    font-size: 1.475em;
+    word-spacing: -.2px;
+    padding-left: 22vw;
+    padding-right: 22vw;
+    padding-bottom: 5vw;
+    moz-font-feature-settings:"kern" 1; 
+-ms-font-feature-settings:"kern" 1; 
+-o-font-feature-settings:"kern" 1; 
+-webkit-font-feature-settings:"kern" 1; 
+font-feature-settings:"kern" 1;
+
+}
+
+
+.pages-unit {
+    background-image:url('../img/pages-top.png');
+    background-size:cover;
+    background-color: #FF3D57;
+    height:50px;
+
+}
+
+.icon-bar {
+    background-color: #ffffff
+}
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    vertical-align: top;
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+
+}
+
+.col-align-bottom {
+    vertical-align: bottom;
+}
+
+.week {
+  color: #ffffff;
+  font-family: "grandma",sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 60%;
+  letter-spacing: .15em;
+  padding-bottom: 5px;
+  padding-top: 2vh;
+  text-align: center;
+  font-variant-ligatures: contextual;
+  -moz-font-feature-settings: "calt";
+  -webkit-font-feature-settings: "calt";
+  font-feature-settings: "calt";
+}
+
+.week hr{
+
+    border: 0;
+    border-bottom: 2px dashed #ffffff;
+    background: ##FF3D57;
+    margin-top:20px;
+    margin-right:100px;
+    margin-bottom: 0;
+    margin-left:100px;
+}
+.week hr:after { 
+  content: '\002702''\00FE0E'; 
+  display: inline-block; 
+  position: relative; 
+  top: -2px; 
+  left: -20vw; 
+  padding: 0 0px; 
+  background: #FF3D57; 
+  color: #ffffff; 
+  font-size: 18px; 
+}
+
+.week h2{
+font-size: 1.3em; 
+padding:15px;   
+}
+
+h4{
+    font-size: 0.9em;
+}
+
+.names {
+font-weight: bolder;
+font-size: 1.2em;
+}
+
+.image-cropper {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.image-cropper img {
+    display: inline;   
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+}
+
+.credit {
+    font-family: "jaf-domus",sans-serif, sans-serif;
+    font-size: 2vmin;
+    text-align: right;
+    color: #878787;
+    font-weight: 300;
+    line-height: 0.9em;
+ 
+  
+  
+  }
+
+.col-text {
+  padding-right:5%;
+  padding-left:5%;
+}
+.about-button {
+
+    position: fixed;
+    font-family: "grandma",sans-serif, sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+    color: #4E4648;
+    font-weight: 800;
+    line-height: 1.3em;
+    right: 20px;
+    width: auto;
+    top: 0px;
+    float: right;
+    z-index: 99999999;
+}
+
+.about {
+
+    font-family: "jaf-domus",sans-serif, sans-serif;
+    font-size: 1.2em;
+    height: 0px;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    word-spacing: -1.5px;
+    right: 0.6em;
+    width: auto;
+    padding: 10%;
+    /*bottom: 12.5vh;*/
+}
+
+.aboutlinks 
+
+a {
+text-decoration: underline;
+color:#ffffff;
+letter-spacing: 2px; 
+}
+a:visited{
+text-decoration: underline;
+color:#ffffff;
+}
+a:hover{
+text-decoration: underline;
+color:#b2b2b2;    
+}
+a:active{
+text-decoration: underline;
+color:#ffffff; 
+}
+
+
+}
+.vertical-text {
+/* Safari */
+-webkit-transform: rotate(90deg);
+/* Firefox */
+-moz-transform: rotate(90deg);
+/* IE */
+-ms-transform: rotate(90deg);
+/* Opera */
+-o-transform: rotate(90deg);
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.biogs {
+   font-family: "grandma", sans-serif;
+   text-align:left; 
+   font-size: 1em;
+}
+
+.short {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right:40px;
+    color: #878787;
+}
+
+.padded{
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.modal.and.carousel {
+  position: fixed; 
+  float: center;
+  overflow: hidden;
+  overflow-y: hidden;
+  z-index: 9999999;
+}
+
+.modal-open {
+ overflow: auto; /*to keep the background scrollable*/
+
+
+
+.modal-header {
+    padding: 12px;
+    border-bottom: 0px solid #e5e5e5;
+  }
+.modal-body {
+    position: relative;
+    padding: 0px;
+    }
+
+.title-lightbox {
+font-size: 2em;
+font-weight: 700;
+color: #FF3D57;
+
+}
+
+.team-lightbox {
+font-size: 1.7em;
+font-weight: 700;
+color: #FF3D57;
+text-align: center;
+
+}
+
+.news-title h4{
+font-size: 1.5em;
+font-weight: 500;
+color: #FF3D57; 
+letter-spacing: 1.1;
+widows: 2;
+orphans: 2;   
+}
+
+.how-tos {
+  position: relative;
+  float: center;
+  padding: 0px;
+  margin:2vw auto; 
+  -webkit-filter: drop-shadow(2px 2px 3px #b2b2b2);
+  filter: drop-shadow(2px 2px 3px #b2b2b2);
+
+
+}
+
+.thumbnail {
+border-style: solid hidden hidden solid;
+border-color: #dbd5d5;
+border-radius: 0px;
+border-width: 1px;
+}
+
+
+  }
+.modal-footer {
+    padding: 1px 4px;
+    text-align: right;
+    border-top: 0px;
+}
+
+.footer-distributed{
+  clear: both;
+  background-color: #FF3D57;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding: 45px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+  color:  #676166;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+  font-size:18px;
+  font-weight: bold;
+  color:  #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-right{
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #FF3D57;
+  border-radius: 2px;
+  font-size: 26px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right{
+    text-align: center;
+  }
+
+  .footer-distributed .footer-right{
+    float: none;
+    margin: 0 auto 20px;
+  }
+
+  .footer-distributed .footer-left p.footer-links{
+    line-height: 1.8;
+  }
+}
+
+
+/*RED is #FF3D57*/
+
+/*GREY is #878787*/
+
+/*LIGHT GREY #9d9d9c*/
+
+/*LIGHTER GREY #b2b2b2*/
+
+/*Very Light pinkish grey #dbd5d5*/
+
